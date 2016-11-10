@@ -3,7 +3,7 @@ require 'formula'
 class ArmElfBinutils < Formula
   homepage 'http://gcc.gnu.org'
   url 'http://ftp.gnu.org/gnu/binutils/binutils-2.25.tar.gz'
-  sha1 'f10c64e92d9c72ee428df3feaf349c4ecb2493bd'
+  sha256 'f10c64e92d9c72ee428df3feaf349c4ecb2493bd'
 
   depends_on 'gcc' => :build
   def install

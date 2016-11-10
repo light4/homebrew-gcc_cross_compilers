@@ -3,7 +3,7 @@ require 'formula'
 class ArmElfGdb < Formula
   homepage 'http://gcc.gnu.org'
   url 'http://ftp.gnu.org/gnu/gdb/gdb-7.9.tar.xz'
-  sha1 '1dabff2168bd8fe3cadf9386e47a47c527ea99ba'
+  sha256 '1dabff2168bd8fe3cadf9386e47a47c527ea99ba'
 
   depends_on 'arm-elf-binutils'
   depends_on 'arm-elf-gcc'
