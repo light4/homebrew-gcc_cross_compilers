@@ -16,7 +16,9 @@ class X8664ElfGdb < Formula
     ENV['LD'] = '/usr/local/opt/gcc/bin/gcc-6'
 
     mkdir 'build' do
-      system '../configure', '--target=x86_64-elf', "--prefix=#{prefix}", "--disable-werror"
+      system '../configure', '--target=x86_64-elf',
+                             "--prefix=#{prefix}",
+                             "--disable-werror"
       system 'make'
       system 'make install'
       FileUtils.rm_rf share/"locale"

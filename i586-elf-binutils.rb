@@ -18,7 +18,7 @@ class I586ElfBinutils < Formula
                              '--target=i586-elf',
                              '--disable-werror',
                              '--enable-gold=yes',
-                             '--prefix=#{prefix}'
+                             "--prefix=#{prefix}"
       system 'make all'
       system 'make install'
     end

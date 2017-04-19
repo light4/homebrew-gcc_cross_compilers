@@ -18,7 +18,7 @@ class ArmElfBinutils < Formula
                              '--target=arm-elf-eabi',
                              '--disable-werror',
                              '--enable-gold=yes',
-                             '--prefix=#{prefix}'
+                             "--prefix=#{prefix}"
       system 'make all'
       system 'make install'
     end
