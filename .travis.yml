@@ -2,7 +2,6 @@ os: osx
 language: objective-c
 before_install:
   - brew tap light4/gcc_cross_compilers
-  - brew tap homebrew/dupes
 env:
   - ARCH=x86_64
   - ARCH=arm
