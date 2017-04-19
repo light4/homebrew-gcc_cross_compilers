@@ -14,9 +14,11 @@ class ArmElfBinutils < Formula
     ENV['LD'] = '/usr/local/opt/gcc/bin/gcc-6'
 
     mkdir 'build' do
-      system '../configure', '--disable-nls', '--target=x86_64-elf','--disable-werror',
+      system '../configure', '--disable-nls',
+                             '--target=arm-elf-eabi',
+                             '--disable-werror',
                              '--enable-gold=yes',
-                             "--prefix=#{prefix}"
+                             '--prefix=#{prefix}'
       system 'make all'
       system 'make install'
     end
