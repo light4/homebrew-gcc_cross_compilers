@@ -13,7 +13,7 @@ class X8664ElfGcc < Formula
   depends_on 'x86_64-elf-binutils'
 
   def install
-    binutils = Formula.factory 'x86_64-elf-binutils'
+    binutils = Formulary.factory 'x86_64-elf-binutils'
 
     ENV['CC'] = '/usr/local/opt/gcc/bin/gcc-6'
     ENV['CXX'] = '/usr/local/opt/gcc/bin/g++-6'
