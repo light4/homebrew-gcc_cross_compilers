@@ -1,7 +1,7 @@
 os: osx
 language: objective-c
 before_install:
-  - brew tap sevki/gcc_cross_compilers
+  - brew tap light4/gcc_cross_compilers
   - brew tap homebrew/dupes
 env:
   - ARCH=x86_64
@@ -13,8 +13,4 @@ branches:
   only:
     - master
 notifications:
-  recipients:
-    - s@sevki.org
-  email:
-    on_success: always
-    on_failure: always
+  email: false
