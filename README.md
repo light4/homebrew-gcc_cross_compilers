@@ -1,4 +1,4 @@
-# GCC Cross Compilers for OS X [![Build Status](https://api.travis-ci.org/light4/homebrew-gcc_cross_compilers.svg?branch=master)](https://travis-ci.org/light4/homebrew-gcc_cross_compilers)   
+# GCC Cross Compilers for MacOS [![Build Status](https://api.travis-ci.org/light4/homebrew-gcc_cross_compilers.svg?branch=master)](https://travis-ci.org/light4/homebrew-gcc_cross_compilers)   
 
 ### Versions
 
