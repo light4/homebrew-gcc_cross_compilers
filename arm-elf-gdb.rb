@@ -20,6 +20,10 @@ class ArmElfGdb < Formula
                              "--prefix=#{prefix}",
                              '--disable-werror'
       system 'make'
+
+      # Don't install bfd or opcodes, as they are provided by binutils
+      inreplace ["bfd/Makefile", "opcodes/Makefile"], /^install:/, "dontinstall:"
+
       system 'make install'
       FileUtils.rm_rf share/"locale"
     end
