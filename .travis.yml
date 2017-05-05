@@ -7,7 +7,7 @@ env:
   - ARCH=arm
   - ARCH=i586
 script:
-  - travis_wait 40 sh test.sh
+  - travis_wait 60 sh test.sh
 branches:
   only:
     - master
