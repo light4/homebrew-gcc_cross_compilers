@@ -2,6 +2,6 @@
 
 ### Versions
 
-- GCC: 6.3.0
+- GCC: 7.1.0
 - GDB: 7.12.1
 - BIN: 2.28
