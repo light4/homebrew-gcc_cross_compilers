@@ -2,9 +2,9 @@ require 'formula'
 
 class X8664ElfBinutils < Formula
   homepage 'https://www.gnu.org/software/binutils/'
-  url 'https://ftpmirror.gnu.org/gnu/binutils/binutils-2.28.tar.gz'
-  mirror 'https://ftp.gnu.org/gnu/binutils/binutils-2.28.tar.gz'
-  sha256 'cd717966fc761d840d451dbd58d44e1e5b92949d2073d75b73fccb476d772fcf'
+  url 'https://ftpmirror.gnu.org/gnu/binutils/binutils-2.29.1.tar.gz'
+  mirror 'https://ftp.gnu.org/gnu/binutils/binutils-2.29.1.tar.gz'
+  sha256 '0d9d2bbf71e17903f26a676e7fba7c200e581c84b8f2f43e72d875d0e638771c'
 
   depends_on 'gcc' => :build
   def install
